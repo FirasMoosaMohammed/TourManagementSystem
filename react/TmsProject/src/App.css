@@ -1,0 +1,125 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.main-content {
+    flex-grow: 1;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+}
+
+.navbar {
+    height: 60px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+
+.carousel img {
+    position: relative;
+    height: 500px;
+    object-fit: cover;
+}
+
+.slide3-img {
+  width: 100%;
+  height: 100vh;
+  object-fit: contain !important;
+  object-position: center;
+}
+
+.carousel-caption {
+    position: absolute !important;
+    bottom: 40% !important;
+    left: 17% !important;
+    transform: translateX(-20%) !important;
+    text-align: center !important;
+    width: 80% !important;
+    max-width: 500px !important;
+    padding: 10px;
+    border-radius: 5px;
+}
+.slide3{
+    position: absolute !important;
+    bottom: 30% !important;
+    left: 67% !important;
+    transform: translateX(-20%) !important;
+    text-align: center !important;
+    width: 80% !important;
+    max-width: 500px !important;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.slide4{
+    position: absolute !important;
+    bottom: 30% !important;
+    left: 70% !important;
+    transform: translateX(-20%) !important;
+    text-align: center !important;
+    width: 80% !important;
+    max-width: 500px !important;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.slide5{
+    position: absolute !important;
+    bottom: 55% !important;
+    left: 65% !important;
+    transform: translateX(-20%) !important;
+    text-align: center !important;
+    width: 80% !important;
+    max-width: 500px !important;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.carousel-caption h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+    font-size: 2rem;
+}
+.navbar .dropdown-toggle::after {
+  border-top-color: white !important; 
+}
+
+.slide3 h3 {
+  font-size: 1.8rem !important;
+}
+
+.ql-editor strong,
+.ql-editor b {
+  font-weight: 700 !important;
+  font-family: "Nunito Sans", sans-serif !important;
+}
+
+.package-detail-container strong,
+.package-detail-container b {
+  font-weight: 700 !important;
+  font-family: "Nunito Sans", sans-serif !important;
+}

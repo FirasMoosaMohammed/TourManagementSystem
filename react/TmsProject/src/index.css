@@ -1,0 +1,44 @@
+.gallery-col {
+  height: 100vh;
+  overflow-y: auto;
+  padding: 2rem;
+  scrollbar-width: none;      
+  -ms-overflow-style: none;   
+}
+
+.details-col {
+  height: 100vh;
+  overflow-y: auto;
+  padding: 2rem;
+  scrollbar-width: none;      
+  -ms-overflow-style: none;   
+}
+
+
+.gallery-col::-webkit-scrollbar,
+.details-col::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+
+@media (max-width: 768px) {
+  .gallery-col,
+  .details-col {
+    height: auto;
+    overflow: visible;
+    padding: 1rem;
+  }
+}
+
+
+.package-divider {
+  width: 250px;
+  height: 2px;
+  background-color: #1a1a1a;
+  border: none;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+
+
