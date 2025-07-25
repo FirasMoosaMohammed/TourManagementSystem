@@ -47,6 +47,7 @@ function AddPackage() {
     }
 
     try {
+      console.log("Itinerary content before saving:", form.itinerary);
       const packageRes = await addPackage(form);
       const packageId = packageRes.data.id;
 

@@ -24,6 +24,7 @@ function AdminHome() {
       .then(() => {
         toast.success("Package deleted successfully");
         fetchPackages();
+        fetchSchedules();
       })
       .catch(() => toast.error("Failed to delete package"));
   };

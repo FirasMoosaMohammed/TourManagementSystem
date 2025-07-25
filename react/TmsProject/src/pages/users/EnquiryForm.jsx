@@ -29,7 +29,7 @@ function EnquiryForm({ packageId = null, scheduleId = null }) {
     };
 
     try {
-      console.log("SUBMITTING DATA →", data);
+      console.log("DATA: ", data);
       await submitEnquiry(data);
       toast.success("Enquiry submitted!");
       setFormData({ name: "", mobile: "", email: "", message: "" });
